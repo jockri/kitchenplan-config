@@ -3,7 +3,7 @@ recipes:
         - dotfiles::gitconfig
         - dotfiles::vim
         - applications::mysql
-        - applications::php56
+        - applications::php55
         - applications::skylab
     mac_os_x:
         - applications::sublime_text_3
@@ -28,13 +28,13 @@ attributes:
             - pwgen
             - xmlstarlet
             - htop-osx
-            - siege
             - watch
             - rsync
         cask_apps:
             - imageoptim
             - phpstorm
             - sequel-pro
+            - mysqlworkbench
     nodejs:
         apps:
             - uglify-js
