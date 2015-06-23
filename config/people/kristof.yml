@@ -56,4 +56,5 @@ attributes:
             - virtualbox
             - vagrant
             - lastpass
+            - unrarx
 
